@@ -2,12 +2,8 @@
 import { Image } from "astro:assets";
 import luke from '../assets/luke.jpg';
 ---
-
 <main
-  class="grid grid-cols-2 pt-16 pb-8 md:pt-12 md:pb-24">
-  <div class="ml-12 relative overflow-hidden rounded-full h-[300px] w-[300px]">
-    <Image src={luke} alt="image of luke" class="w-full object-cover" />
-  </div>
+  class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 pt-16 pb-8 md:pt-12 md:pb-24">
   <div class="ml-12">
     <h1 class="text-5xl lg:ktext-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
       Make Tech Sense
@@ -19,6 +15,9 @@ import luke from '../assets/luke.jpg';
       I build tools to make tech more approachable. 
       I specialize in business intelligence, data science, and data engineering. 
     </p>
+  </div>
+  <div class="relative overflow-hidden rounded-full h-[300px] w-[300px] md:h-[300px] md:w-[300px] sm:h-[150px] sm:w-[150px] mx-auto md:mx-0 md:col-start-2">
+    <Image src={luke} alt="image of luke" class="w-full object-cover" />
   </div>
 </main>
 
