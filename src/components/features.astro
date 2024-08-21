@@ -4,55 +4,50 @@ import { Icon } from "astro-icon/components";
 
 const features = [
   {
-    title: "Bring Your Own Framework",
-    description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
+    title: "M.S. Applied Data Science, Syracuse University",
+    description: "I graduated in 2020 with my masters degree of applied data science. In this program I explored machine learning, data visualization, business analytics, data warehousing, and more.",
+    icon: "carbon:chart-line-data",
   },
   {
-    title: "100% Static HTML, No JS",
-    description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
+    title: "10 years in publishing",
+    description: "I have worked in publishing at IVP for over 10 years. Starting in marketing, I discovered I had technical skills that could serve better in IT.",
+    icon: "carbon:notebook",
   },
   {
-    title: "On-Demand Components",
-    description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
+    title: "Handled several data migrations",
+    description: "I have worked on several data migrations and am proficient in SQL and Python.",
+    icon: "carbon:flow-data",
   },
   {
-    title: "Broad Integration",
-    description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
+    title: "Created business insight",
+    description: "As the person in charge of developing our internal reporting, I have collaborated closely with teams to refine their questions and create business insights.",
+    icon: "carbon:inspection",
   },
   {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
+    title: "Leader of the development team",
+    description: "As associate director of IT I establishing and led our development team, including establishing a ticketing system and moving towards industry best practices.",
+    icon: "carbon:db2-database",
   },
   {
-    title: "Community",
-    description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
+    title: "Open source enthusiast",
+    description: "Having worked with nonprofits for years, I am a huge fan of open source projects. I appreciate the accessibility that these projects provide and I try to contribute where I can.",
+    icon: "carbon:calibrate",
   },
 ];
 ---
 
 <div class="mt-16 md:mt-0">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-    Everything you need to start a website
+    Who am I?
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    Astro comes batteries included. It takes the best parts of state-of-the-art
-    tools and adds its own innovations.
+    I am an IT professional with over 10 years of experience in book publishing. With a background in the humanities 
+    and liberal arts, I bring the ability to think critically and communicate effectively, while bridging the gap 
+    into the world of technology and science.
   </p>
 </div>
 
-<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+<div class="grid sm:grid-cols-1 md:grid-cols-2 mt-16 gap-16">
   {
     features.map((item) => (
       <div class="flex gap-4 items-start">
